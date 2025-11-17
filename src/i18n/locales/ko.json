@@ -856,6 +856,17 @@
         "location": "위치",
         "locationText": "서울, 대한민국"
       },
+      "paymentOptions": {
+        "title": "결제 방법",
+        "description": "온라인 카드 결제 및 계좌이체 가능",
+        "note": "상담 후 웹·앱에서 결제하여 프로그램을 시작할 수 있습니다",
+        "payInFull": "일시불",
+        "payInFullDesc": "5% 할인 혜택",
+        "installments": "3개월 할부",
+        "installmentsDesc": "무이자 할부",
+        "fsaHsa": "FSA/HSA",
+        "fsaHsaDesc": "모든 비용 자격 있음"
+      },
       "validation": {
         "firstNameRequired": "이름을 입력해주세요",
         "lastNameRequired": "성을 입력해주세요",

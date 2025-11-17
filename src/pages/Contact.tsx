@@ -26,17 +26,14 @@ export default function Contact() {
 
   // Calendly 위젯 로드
   useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://assets.calendly.com/assets/external/widget.js'
-    script.async = true
-    document.body.appendChild(script)
-
-    return () => {
-      // Cleanup
-      const existingScript = document.querySelector('script[src="https://assets.calendly.com/assets/external/widget.js"]')
-      if (existingScript) {
-        document.body.removeChild(existingScript)
-      }
+    // 스크립트가 이미 로드되어 있는지 확인
+    const existingScript = document.querySelector('script[src="https://assets.calendly.com/assets/external/widget.js"]')
+    
+    if (!existingScript) {
+      const script = document.createElement('script')
+      script.src = 'https://assets.calendly.com/assets/external/widget.js'
+      script.async = true
+      document.body.appendChild(script)
     }
   }, [])
 
@@ -339,37 +336,37 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-gradient-to-br from-primary/5 to-primary-light/5 border-2 border-primary/20">
             <h3 className="text-xl sm:text-2xl font-bold text-secondary mb-4 text-center">
-              {t('pages.ourProgram.pricing.paymentOptions.title')}
+              {t('contact.paymentOptions.title')}
             </h3>
             <p className="text-base sm:text-lg text-neutral-700 mb-3 text-center">
-              {t('pages.ourProgram.pricing.paymentOptions.description')}
+              {t('contact.paymentOptions.description')}
             </p>
             <p className="text-sm sm:text-base text-neutral-600 mb-4 text-center">
-              {t('pages.ourProgram.pricing.paymentOptions.note')}
+              {t('contact.paymentOptions.note')}
             </p>
             <div className="grid sm:grid-cols-3 gap-4 mt-6">
               <div className="text-center">
                 <div className="text-sm sm:text-base font-semibold text-neutral-800 mb-1">
-                  {t('pages.ourProgram.pricing.paymentOptions.payInFull')}
+                  {t('contact.paymentOptions.payInFull')}
                 </div>
                 <div className="text-xs sm:text-sm text-neutral-600">
-                  {t('pages.ourProgram.pricing.paymentOptions.payInFullDesc')}
+                  {t('contact.paymentOptions.payInFullDesc')}
                 </div>
               </div>
               <div className="text-center">
                 <div className="text-sm sm:text-base font-semibold text-neutral-800 mb-1">
-                  {t('pages.ourProgram.pricing.paymentOptions.installments')}
+                  {t('contact.paymentOptions.installments')}
                 </div>
                 <div className="text-xs sm:text-sm text-neutral-600">
-                  {t('pages.ourProgram.pricing.paymentOptions.installmentsDesc')}
+                  {t('contact.paymentOptions.installmentsDesc')}
                 </div>
               </div>
               <div className="text-center">
                 <div className="text-sm sm:text-base font-semibold text-neutral-800 mb-1">
-                  {t('pages.ourProgram.pricing.paymentOptions.fsaHsa')}
+                  {t('contact.paymentOptions.fsaHsa')}
                 </div>
                 <div className="text-xs sm:text-sm text-neutral-600">
-                  {t('pages.ourProgram.pricing.paymentOptions.fsaHsaDesc')}
+                  {t('contact.paymentOptions.fsaHsaDesc')}
                 </div>
               </div>
             </div>
