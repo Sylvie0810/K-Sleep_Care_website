@@ -86,12 +86,12 @@ export default function HowItWorks() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-16">
+      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-bold text-secondary mb-4"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-3 sm:mb-4"
           >
             {t('pages.howItWorks.title')}
           </motion.h1>
@@ -99,7 +99,7 @@ export default function HowItWorks() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.05 }}
-            className="text-sm text-primary font-semibold mb-4"
+            className="text-xs sm:text-sm text-primary font-semibold mb-3 sm:mb-4"
           >
             {t('pages.howItWorks.targetAudience')}
           </motion.p>
@@ -107,7 +107,7 @@ export default function HowItWorks() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-neutral-700"
+            className="text-base sm:text-lg md:text-xl text-neutral-700"
           >
             {t('pages.howItWorks.subtitle')}
           </motion.p>
@@ -127,25 +127,25 @@ export default function HowItWorks() {
                 transition={{ delay: index * 0.1 }}
               >
                 <Card>
-                  <div className="flex flex-col md:flex-row gap-6">
+                  <div className="flex flex-col md:flex-row gap-4 sm:gap-6">
                     <div className="flex-shrink-0">
-                      <div className="w-20 h-20 bg-gradient-to-br from-primary to-primary-light rounded-xl flex items-center justify-center mb-4">
-                        <step.icon className="text-white" size={40} />
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-primary to-primary-light rounded-xl flex items-center justify-center mb-3 sm:mb-4">
+                        <step.icon className="text-white" size={32} />
                       </div>
                       <div className="text-center md:text-left">
-                        <div className="text-sm text-primary font-semibold mb-1">Step {step.number}</div>
+                        <div className="text-xs sm:text-sm text-primary font-semibold mb-1">Step {step.number}</div>
                         <div className="text-xs text-neutral-600">{step.duration}</div>
                         <div className="text-xs text-success font-semibold mt-1">{step.cost}</div>
                       </div>
                     </div>
-                    <div className="flex-grow">
-                      <h2 className="text-2xl font-semibold text-secondary mb-3">{step.title}</h2>
-                      <p className="text-neutral-700 mb-4">{step.description}</p>
+                    <div className="flex-grow min-w-0">
+                      <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-secondary mb-2 sm:mb-3">{step.title}</h2>
+                      <p className="text-sm sm:text-base text-neutral-700 mb-3 sm:mb-4">{step.description}</p>
                       <ul className="grid md:grid-cols-2 gap-2">
                         {step.details.map((detail, detailIndex) => (
                           <li key={detailIndex} className="flex items-start space-x-2">
-                            <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
-                            <span className="text-sm text-neutral-700">{detail}</span>
+                            <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
+                            <span className="text-xs sm:text-sm text-neutral-700">{detail}</span>
                           </li>
                         ))}
                       </ul>

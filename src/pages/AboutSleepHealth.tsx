@@ -52,12 +52,12 @@ export default function AboutSleepHealth() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-16">
+      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-bold text-secondary mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4 sm:mb-6"
           >
             {t('aboutSleepHealth.title')}
           </motion.h1>
@@ -65,7 +65,7 @@ export default function AboutSleepHealth() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-neutral-700"
+            className="text-base sm:text-lg md:text-xl text-neutral-700"
           >
             {t('aboutSleepHealth.subtitle')}
           </motion.p>
@@ -80,11 +80,11 @@ export default function AboutSleepHealth() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold text-secondary mb-6">{t('aboutSleepHealth.whyMatters.title')}</h2>
-            <div className="prose prose-lg max-w-none text-neutral-700 space-y-6">
-              <div className="bg-primary/5 border-l-4 border-primary pl-6 py-4 rounded-r-lg">
-                <p className="text-lg font-semibold text-secondary mb-2" dangerouslySetInnerHTML={{ __html: t('aboutSleepHealth.whyMatters.quote') }} />
-                <p className="text-sm text-neutral-600">{t('aboutSleepHealth.whyMatters.quoteAuthor')}</p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-4 sm:mb-6">{t('aboutSleepHealth.whyMatters.title')}</h2>
+            <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none text-neutral-700 space-y-4 sm:space-y-6">
+              <div className="bg-primary/5 border-l-4 border-primary pl-4 sm:pl-6 py-3 sm:py-4 rounded-r-lg">
+                <p className="text-base sm:text-lg font-semibold text-secondary mb-2" dangerouslySetInnerHTML={{ __html: t('aboutSleepHealth.whyMatters.quote') }} />
+                <p className="text-xs sm:text-sm text-neutral-600">{t('aboutSleepHealth.whyMatters.quoteAuthor')}</p>
               </div>
               <p>
                 {t('aboutSleepHealth.whyMatters.p1')}
@@ -107,13 +107,13 @@ export default function AboutSleepHealth() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold text-secondary mb-6">{t('aboutSleepHealth.whatIs.title')}</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-4 sm:mb-6">{t('aboutSleepHealth.whatIs.title')}</h2>
             
             {/* Video Section */}
-            <div className="mb-8">
+            <div className="mb-6 sm:mb-8">
               <video 
                 controls 
-                className="w-full rounded-xl shadow-soft"
+                className="w-full rounded-lg sm:rounded-xl shadow-soft"
                 style={{ maxHeight: '500px' }}
               >
                 <source src="/sleep-apnea-video.mp4" type="video/mp4" />
@@ -122,7 +122,7 @@ export default function AboutSleepHealth() {
             </div>
             
             {/* Airway Images */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
               <div className="text-center">
                 <img 
                   src="/Airway_normal.png" 

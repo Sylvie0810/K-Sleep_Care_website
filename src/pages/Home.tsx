@@ -16,20 +16,20 @@ export default function Home() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-20 lg:py-32">
+      <section className="relative bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-12 sm:py-16 md:py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
               <h1 
-                className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-6 text-balance"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-4 sm:mb-6 text-balance leading-tight"
                 dangerouslySetInnerHTML={{ __html: t('home.hero.title') }}
               />
               <p 
-                className="text-xl text-neutral-700 mb-8 leading-relaxed"
+                className="text-base sm:text-lg md:text-xl text-neutral-700 mb-6 sm:mb-8 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: t('home.hero.subtitle') }}
               />
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -45,17 +45,17 @@ export default function Home() {
                   </Button>
                 </Link>
               </div>
-              <div className="flex flex-wrap gap-6 text-sm text-neutral-600">
+              <div className="flex flex-wrap gap-3 sm:gap-6 text-xs sm:text-sm text-neutral-600">
                 <div className="flex items-center space-x-2">
-                  <CheckCircle2 className="text-success" size={20} />
+                  <CheckCircle2 className="text-success flex-shrink-0" size={16} />
                   <span>{t('home.hero.trust1')}</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <CheckCircle2 className="text-success" size={20} />
+                  <CheckCircle2 className="text-success flex-shrink-0" size={16} />
                   <span>{t('home.hero.trust2')}</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <CheckCircle2 className="text-success" size={20} />
+                  <CheckCircle2 className="text-success flex-shrink-0" size={16} />
                   <span>{t('home.hero.trust3')}</span>
                 </div>
               </div>
@@ -66,25 +66,25 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative"
             >
-              <div className="bg-gradient-to-br from-primary to-primary-light rounded-2xl p-6 shadow-large border border-primary/20">
-                <div className="bg-white rounded-xl p-6 space-y-4">
-                  <h3 className="text-2xl font-bold text-secondary">{t('home.hero.whyTitle')}</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle2 className="text-success mt-0.5" size={20} />
-                      <span>{t('home.hero.why1')}</span>
+              <div className="bg-gradient-to-br from-primary to-primary-light rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-large border border-primary/20">
+                <div className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 space-y-3 sm:space-y-4">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-secondary">{t('home.hero.whyTitle')}</h3>
+                  <ul className="space-y-2 sm:space-y-3">
+                    <li className="flex items-start space-x-2 sm:space-x-3">
+                      <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                      <span className="text-sm sm:text-base">{t('home.hero.why1')}</span>
                     </li>
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle2 className="text-success mt-0.5" size={20} />
-                      <span>{t('home.hero.why2')}</span>
+                    <li className="flex items-start space-x-2 sm:space-x-3">
+                      <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                      <span className="text-sm sm:text-base">{t('home.hero.why2')}</span>
                     </li>
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle2 className="text-success mt-0.5" size={20} />
-                      <span>{t('home.hero.why3')}</span>
+                    <li className="flex items-start space-x-2 sm:space-x-3">
+                      <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                      <span className="text-sm sm:text-base">{t('home.hero.why3')}</span>
                     </li>
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle2 className="text-success mt-0.5" size={20} />
-                      <span>{t('home.hero.why4')}</span>
+                    <li className="flex items-start space-x-2 sm:space-x-3">
+                      <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                      <span className="text-sm sm:text-base">{t('home.hero.why4')}</span>
                     </li>
                   </ul>
                 </div>
@@ -104,19 +104,19 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="space-y-12"
           >
-            <div className="relative bg-white rounded-2xl shadow-large p-6 md:p-8 border-l-8 border-primary">
-              <div className="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-primary to-primary-light rounded-l-2xl"></div>
-              <div className="pl-6">
-                <div className="mb-4">
-                  <svg className="w-8 h-8 text-primary/20 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <div className="relative bg-white rounded-xl sm:rounded-2xl shadow-large p-4 sm:p-6 md:p-8 border-l-4 sm:border-l-8 border-primary">
+              <div className="absolute top-0 left-0 w-1 sm:w-2 h-full bg-gradient-to-b from-primary to-primary-light rounded-l-xl sm:rounded-l-2xl"></div>
+              <div className="pl-4 sm:pl-6">
+                <div className="mb-3 sm:mb-4">
+                  <svg className="w-6 h-6 sm:w-8 sm:h-8 text-primary/20 mb-2 sm:mb-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.996 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.984zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                   </svg>
                 </div>
                 <h2 
-                  className="text-xl md:text-2xl font-bold text-secondary mb-4 leading-tight"
+                  className="text-lg sm:text-xl md:text-2xl font-bold text-secondary mb-3 sm:mb-4 leading-tight"
                   dangerouslySetInnerHTML={{ __html: t('aboutSleepHealth.whyMatters.quote') }}
                 />
-                <p className="text-base text-neutral-600 font-medium">
+                <p className="text-sm sm:text-base text-neutral-600 font-medium">
                   {t('aboutSleepHealth.whyMatters.quoteAuthor')}
                 </p>
               </div>
@@ -150,10 +150,10 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-6 sm:mb-8">
               {t('home.whatIs.title')}
             </h2>
-            <div className="prose prose-lg max-w-none text-neutral-700 space-y-4 text-left">
+            <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none text-neutral-700 space-y-3 sm:space-y-4 text-left">
               <p>
                 {t('home.whatIs.p1')}
               </p>
@@ -228,13 +228,13 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
               >
                 <Card>
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-16 h-16 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-2xl">
+                  <div className="flex items-start space-x-3 sm:space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl sm:text-2xl">
                       {day.day}
                     </div>
-                    <div className="flex-grow">
-                      <h3 className="text-2xl font-semibold text-secondary mb-3">{day.title}</h3>
-                      <p className="text-base text-neutral-700">{day.description}</p>
+                    <div className="flex-grow min-w-0">
+                      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-secondary mb-2 sm:mb-3">{day.title}</h3>
+                      <p className="text-sm sm:text-base text-neutral-700">{day.description}</p>
                     </div>
                   </div>
                 </Card>
@@ -283,7 +283,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 sm:mb-8">
               {t('home.finalCta.title')}
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

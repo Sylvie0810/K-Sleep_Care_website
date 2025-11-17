@@ -92,25 +92,25 @@ export default function OurProgram() {
 
   return (
     <div className="pt-20">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-bold text-secondary mb-6"
-          >
-            {t('pages.ourProgram.title')}
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-xl text-neutral-700 leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: t('pages.ourProgram.subtitle') }}
-          />
-        </div>
-      </section>
+              {/* Hero Section */}
+              <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-12 sm:py-16">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                  <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4 sm:mb-6"
+                  >
+                    {t('pages.ourProgram.title')}
+                  </motion.h1>
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 }}
+                    className="text-base sm:text-lg md:text-xl text-neutral-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: t('pages.ourProgram.subtitle') }}
+                  />
+                </div>
+              </section>
 
       {/* The K-Sleep Care Difference */}
       <section className="py-20 bg-white">
@@ -121,10 +121,10 @@ export default function OurProgram() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-secondary mb-4">{t('pages.ourProgram.difference.title')}</h2>
-            <p className="text-lg text-neutral-700">
-              {t('pages.ourProgram.difference.subtitle')}
-            </p>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.difference.title')}</h2>
+                    <p className="text-base sm:text-lg text-neutral-700">
+                      {t('pages.ourProgram.difference.subtitle')}
+                    </p>
           </motion.div>
 
           <Card className="overflow-hidden p-0">
@@ -132,17 +132,17 @@ export default function OurProgram() {
               <table className="w-full">
                 <thead className="bg-primary text-white">
                   <tr>
-                    <th className="px-6 py-4 text-left font-semibold">{t('pages.ourProgram.difference.aspect')}</th>
-                    <th className="px-6 py-4 text-left font-semibold">{t('pages.ourProgram.difference.traditionalUS')}</th>
-                    <th className="px-6 py-4 text-left font-semibold">{t('pages.ourProgram.difference.kcare')}</th>
+                    <th className="px-3 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold">{t('pages.ourProgram.difference.aspect')}</th>
+                    <th className="px-3 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold">{t('pages.ourProgram.difference.traditionalUS')}</th>
+                    <th className="px-3 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold">{t('pages.ourProgram.difference.kcare')}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-neutral-200">
                   {comparisonData.map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}>
-                      <td className="px-6 py-4 font-semibold text-secondary">{row.aspect}</td>
-                      <td className="px-6 py-4 text-neutral-700">{row.us}</td>
-                      <td className="px-6 py-4 text-primary font-semibold">{row.kcare}</td>
+                      <td className="px-3 sm:px-6 py-3 sm:py-4 font-semibold text-secondary text-xs sm:text-sm">{row.aspect}</td>
+                      <td className="px-3 sm:px-6 py-3 sm:py-4 text-neutral-700 text-xs sm:text-sm">{row.us}</td>
+                      <td className="px-3 sm:px-6 py-3 sm:py-4 text-primary font-semibold text-xs sm:text-sm">{row.kcare}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -161,10 +161,10 @@ export default function OurProgram() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-secondary mb-4">{t('pages.ourProgram.fiveDayProgram.title')}</h2>
+            <div className="text-center mb-6 sm:mb-8">
+              <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.fiveDayProgram.title')}</h2>
               <p 
-                className="text-sm text-primary font-semibold"
+                className="text-xs sm:text-sm text-primary font-semibold"
                 dangerouslySetInnerHTML={{ __html: t('pages.ourProgram.fiveDayProgram.subtitle') }}
               />
             </div>
@@ -180,13 +180,13 @@ export default function OurProgram() {
                 transition={{ delay: index * 0.1 }}
               >
                 <Card>
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-16 h-16 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-2xl">
+                  <div className="flex items-start space-x-3 sm:space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl sm:text-2xl">
                       {day.day}
                     </div>
-                    <div className="flex-grow">
-                      <h3 className="text-2xl font-semibold text-secondary mb-3">{day.title}</h3>
-                      <p className="text-neutral-700">{day.description}</p>
+                    <div className="flex-grow min-w-0">
+                      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-secondary mb-2 sm:mb-3">{day.title}</h3>
+                      <p className="text-sm sm:text-base text-neutral-700">{day.description}</p>
                     </div>
                   </div>
                 </Card>
@@ -291,40 +291,40 @@ export default function OurProgram() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-secondary mb-4">{t('pages.ourProgram.technology.title')}</h2>
-            <p className="text-lg text-neutral-700">
-              {t('pages.ourProgram.technology.subtitle')}
-            </p>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.technology.title')}</h2>
+                    <p className="text-base sm:text-lg text-neutral-700">
+                      {t('pages.ourProgram.technology.subtitle')}
+                    </p>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <Card>
-              <Brain className="text-primary mb-4" size={32} />
-              <h3 className="text-xl font-semibold text-secondary mb-2">{t('pages.ourProgram.technology.aiAssessment.title')}</h3>
-              <p className="text-neutral-700 mb-4">
+              <Brain className="text-primary mb-3 sm:mb-4" size={28} />
+              <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-2">{t('pages.ourProgram.technology.aiAssessment.title')}</h3>
+              <p className="text-sm sm:text-base text-neutral-700 mb-3 sm:mb-4">
                 {t('pages.ourProgram.technology.aiAssessment.description')}
               </p>
               <ul className="space-y-2">
                 {(t('pages.ourProgram.technology.aiAssessment.features', { returnObjects: true }) as string[]).map((feature, index) => (
                   <li key={index} className="flex items-start space-x-2">
-                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
-                    <span className="text-sm text-neutral-700">{feature}</span>
+                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-xs sm:text-sm text-neutral-700">{feature}</span>
                   </li>
                 ))}
               </ul>
             </Card>
 
             <Card>
-              <Users className="text-primary mb-4" size={32} />
-              <h3 className="text-xl font-semibold text-secondary mb-2">{t('pages.ourProgram.technology.customMask.title')}</h3>
-              <p className="text-neutral-700 mb-4">
+              <Users className="text-primary mb-3 sm:mb-4" size={28} />
+              <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-2">{t('pages.ourProgram.technology.customMask.title')}</h3>
+              <p className="text-sm sm:text-base text-neutral-700 mb-3 sm:mb-4">
                 {t('pages.ourProgram.technology.customMask.description')}
               </p>
               <ul className="space-y-2">
                 {(t('pages.ourProgram.technology.customMask.features', { returnObjects: true }) as string[]).map((feature, index) => (
                   <li key={index} className="flex items-start space-x-2">
-                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
-                    <span className="text-sm text-neutral-700">{feature}</span>
+                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-xs sm:text-sm text-neutral-700">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -365,20 +365,125 @@ export default function OurProgram() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-12 sm:py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-8 sm:mb-12"
+          >
+            <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.pricing.title')}</h2>
+            <p className="text-base sm:text-lg text-neutral-700">
+              {t('pages.ourProgram.pricing.subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
+            {/* Package Info */}
+            <Card className="bg-gradient-to-br from-primary/5 to-primary-light/5 border-2 border-primary/20">
+              <h3 className="text-xl sm:text-2xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.pricing.packageInfo.title')}</h3>
+              <p className="text-base sm:text-lg text-neutral-800 mb-2 font-semibold">
+                {t('pages.ourProgram.pricing.packageInfo.description')}
+              </p>
+              <p className="text-sm sm:text-base text-primary font-semibold mb-4">
+                {t('pages.ourProgram.pricing.packageInfo.priceNote')}
+              </p>
+              <p className="text-xs sm:text-sm text-neutral-600">
+                {t('pages.ourProgram.pricing.packageInfo.priceRange')}
+              </p>
+            </Card>
+
+            {/* Payment Options */}
+            <Card>
+              <h3 className="text-xl sm:text-2xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.ourProgram.pricing.paymentOptions.title')}</h3>
+              <p className="text-sm sm:text-base text-neutral-700 mb-4">
+                {t('pages.ourProgram.pricing.paymentOptions.description')}
+              </p>
+              <p className="text-xs sm:text-sm text-neutral-600 mb-4">
+                {t('pages.ourProgram.pricing.paymentOptions.note')}
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-start space-x-2">
+                  <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                  <div>
+                    <span className="text-sm sm:text-base font-semibold text-neutral-800">{t('pages.ourProgram.pricing.paymentOptions.payInFull')}</span>
+                    <span className="text-xs sm:text-sm text-neutral-600 ml-2">({t('pages.ourProgram.pricing.paymentOptions.payInFullDesc')})</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                  <div>
+                    <span className="text-sm sm:text-base font-semibold text-neutral-800">{t('pages.ourProgram.pricing.paymentOptions.installments')}</span>
+                    <span className="text-xs sm:text-sm text-neutral-600 ml-2">({t('pages.ourProgram.pricing.paymentOptions.installmentsDesc')})</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={18} />
+                  <div>
+                    <span className="text-sm sm:text-base font-semibold text-neutral-800">{t('pages.ourProgram.pricing.paymentOptions.fsaHsa')}</span>
+                    <span className="text-xs sm:text-sm text-neutral-600 ml-2">({t('pages.ourProgram.pricing.paymentOptions.fsaHsaDesc')})</span>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Package Details */}
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
+            <Card>
+              <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-4">{t('pages.ourProgram.pricing.packagePricing.title')}</h3>
+              <ul className="space-y-2">
+                {(t('pages.ourProgram.pricing.packagePricing.items', { returnObjects: true }) as string[]).map((item, index) => (
+                  <li key={index} className="flex items-start space-x-2">
+                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm sm:text-base text-neutral-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+
+            <Card>
+              <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-4">{t('pages.ourProgram.pricing.notIncluded.title')}</h3>
+              <ul className="space-y-2">
+                {(t('pages.ourProgram.pricing.notIncluded.items', { returnObjects: true }) as string[]).map((item, index) => (
+                  <li key={index} className="flex items-start space-x-2">
+                    <span className="text-neutral-400 mt-0.5 flex-shrink-0">×</span>
+                    <span className="text-sm sm:text-base text-neutral-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
+
+          {/* Refund Policy */}
+          <Card className="bg-neutral-50 border-l-4 border-primary">
+            <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-3">{t('pages.ourProgram.pricing.refundPolicy.title')}</h3>
+            <p className="text-sm sm:text-base text-neutral-700 mb-2">
+              {t('pages.ourProgram.pricing.refundPolicy.description')}
+            </p>
+            <p className="text-xs sm:text-sm text-neutral-600">
+              {t('pages.ourProgram.pricing.refundPolicy.note')}
+            </p>
+          </Card>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary-light">
+      <section className="py-12 sm:py-20 bg-gradient-to-br from-primary to-primary-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-white mb-6">{t('pages.ourProgram.cta.title')}</h2>
-            <p className="text-xl text-white/90 mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">{t('pages.ourProgram.cta.title')}</h2>
+            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8">
               {t('pages.ourProgram.cta.subtitle')}
             </p>
             <Link to="/contact">
-              <button className="bg-white text-primary hover:bg-neutral-100 font-semibold rounded-lg px-8 py-3 text-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white shadow-medium hover:shadow-large">
+              <button className="bg-white text-primary hover:bg-neutral-100 font-semibold rounded-lg px-6 sm:px-8 py-3 text-base sm:text-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white shadow-medium hover:shadow-large">
                 {t('pages.ourProgram.cta.button')}
               </button>
             </Link>

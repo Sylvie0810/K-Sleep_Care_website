@@ -269,7 +269,17 @@
       {
         "category": "payment",
         "question": "프로그램 비용은 얼마인가요?",
-        "answer": "우리의 포괄적인 패키지 가격은 투명하며, 시간 절약과 우수한 결과를 고려하기 전에도 일반적으로 미국의 유사한 치료보다 30-50% 저렴합니다. 현재 가격은 문의하세요."
+        "answer": "초기 패키지(검사지원 + 진단 연계 + 90일 코칭)의 가격은 케이스별로 상이하며, 상담 후 확정됩니다. 포괄적인 패키지 가격은 투명하며, 미국의 유사한 치료보다 일반적으로 30-50% 저렴합니다. 현재 가격은 상담 시 개별 견적을 제공해드립니다."
+      },
+      {
+        "category": "payment",
+        "question": "결제는 어떻게 하나요?",
+        "answer": "온라인 카드 결제 및 계좌이체가 가능합니다. 상담 후 웹·앱에서 결제하여 프로그램을 시작할 수 있습니다. 일시불, 3개월 무이자 할부, FSA/HSA 등 다양한 결제 옵션을 제공합니다."
+      },
+      {
+        "category": "payment",
+        "question": "환불 정책은 어떻게 되나요?",
+        "answer": "프로그램 시작 전 취소 시 전액 환불되며, 프로그램 시작 이후에는 잔여 기간에 대해 부분 환불됩니다. 정확한 환불 규정은 약관에 명시되어 있으며, 상담 시 자세히 안내해드립니다."
       },
       {
         "category": "payment",
@@ -447,11 +457,11 @@
           ]
         },
         "customMask": {
-          "title": "맞춤형 마스크 제조",
-          "description": "3D 얼굴 스캔 기술로 단 72시간 만에 완벽하게 맞는 마스크를 제작하여 편안함과 순응도를 크게 향상시킵니다.",
+          "title": "AI·3D 기반 마스크 추천",
+          "description": "3D 얼굴 스캔과 머신러닝으로 학습한 모델을 활용해 얼굴형·코 구조·수면 습관에 맞는 마스크를 브랜드에 상관없이 자동으로 추천합니다. 최소한의 시착으로 가장 잘 맞는 조합을 찾는 데 초점을 둡니다.",
           "features": [
-            "완벽한 맞춤 보장",
-            "여러 개의 백업 마스크 포함"
+            "다수 브랜드·타입(코/구강/전면형) 중 최적 마스크 제안",
+            "누설·압박·순응도 데이터를 반영한 추천 알고리즘"
           ]
         },
         "dataCollection": {
@@ -556,10 +566,16 @@
         }
       },
       "pricing": {
-        "title": "가격 및 결제 옵션",
+        "title": "가격 및 결제",
         "subtitle": "투명하고 포괄적인 가격, 유연한 결제 옵션",
+        "packageInfo": {
+          "title": "초기 패키지",
+          "description": "검사지원 + 진단 연계 + 90일 코칭",
+          "priceNote": "가격: 케이스별 상이 – 상담 후 확정",
+          "priceRange": "일반적으로 상담 후 개별 견적 제공"
+        },
         "packagePricing": {
-          "title": "패키지 가격",
+          "title": "패키지 구성",
           "items": [
             "포괄적인 프로그램 수수료",
             "5일(또는 5단계) 집중 프로그램",
@@ -582,7 +598,9 @@
           ]
         },
         "paymentOptions": {
-          "title": "결제 옵션",
+          "title": "결제 방법",
+          "description": "온라인 카드 결제 및 계좌이체 가능",
+          "note": "상담 후 웹·앱에서 결제하여 프로그램을 시작할 수 있습니다",
           "payInFull": "일시불",
           "payInFullDesc": "5% 할인 혜택",
           "installments": "3개월 할부",
@@ -591,6 +609,11 @@
           "fsaHsaDesc": "모든 비용 자격 있음",
           "financing": "금융",
           "financingDesc": "파트너를 통한 옵션 제공"
+        },
+        "refundPolicy": {
+          "title": "환불 정책",
+          "description": "프로그램 시작 전 취소 시 전액 환불, 시작 이후에는 잔여 기간에 대해 부분 환불",
+          "note": "정확한 환불 규정은 약관에 명시되어 있으며, 상담 시 자세히 안내해드립니다."
         }
       }
     },
@@ -755,6 +778,93 @@
           "title": "뇌인지과학 기반 행동변화 자문",
           "description": "서울대학교 뇌인지과학과 이인아 교수는 수면·습관의 뇌과학 연구를 바탕으로 사용자의 행동 변화를 돕는 치료 설계를 자문합니다."
         }
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "무료 상담 예약",
+        "subtitle": "수면 전문가와 무료 30분 상담을 예약하세요"
+      },
+      "form": {
+        "personalInfo": {
+          "title": "개인 정보",
+          "firstName": "이름 *",
+          "lastName": "성 *",
+          "email": "이메일 *",
+          "preferredContact": "선호하는 연락 방법 *",
+          "emailOption": "이메일",
+          "whatsappOption": "WhatsApp"
+        },
+        "healthScreening": {
+          "title": "기본 건강 스크리닝",
+          "age": "나이 *",
+          "diagnosed": "수면무호흡 진단을 받으셨나요? *",
+          "diagnosedYes": "예",
+          "diagnosedNo": "아니오",
+          "diagnosedUnsure": "확실하지 않음",
+          "currentCPAP": "현재 양압기를 사용 중이신가요? *",
+          "cpapYesSuccessful": "예, 잘 사용 중입니다",
+          "cpapYesStruggling": "예, 하지만 어려움을 겪고 있습니다",
+          "cpapNo": "아니오",
+          "cpapTriedQuit": "과거에 사용했지만 중단했습니다"
+        },
+        "symptoms": {
+          "title": "증상 (해당되는 모든 항목 선택)",
+          "loudSnoring": "큰 코골이",
+          "gasping": "수면 중 숨을 헐떡임",
+          "daytimeSleepiness": "과도한 주간 졸음",
+          "morningHeadaches": "아침 두통",
+          "difficultyConcentrating": "집중력 저하",
+          "highBloodPressure": "고혈압",
+          "other": "기타"
+        },
+        "availability": {
+          "title": "가능한 시간",
+          "preferredDate": "선호하는 상담 날짜",
+          "preferredTime": "선호하는 시간",
+          "morning": "오전 (9시 - 12시)",
+          "afternoon": "오후 (12시 - 5시)",
+          "evening": "저녁 (5시 - 8시)"
+        },
+        "additionalInfo": {
+          "hearAbout": "어떻게 알게 되셨나요?",
+          "hearAboutGoogle": "구글 검색",
+          "hearAboutSocial": "소셜 미디어",
+          "hearAboutReferral": "의료진 추천",
+          "hearAboutFriend": "지인/가족",
+          "hearAboutArticle": "기사/블로그",
+          "hearAboutOther": "기타",
+          "additionalInfo": "추가 정보",
+          "additionalInfoPlaceholder": "상담 중 논의하고 싶은 특정 사항이 있으신가요?"
+        },
+        "privacy": {
+          "text": "K-Sleep Care로부터 상담 및 치료 옵션에 관한 연락을 받는 것에 동의합니다. 귀하의 정보는 기밀이며 HIPAA를 준수합니다."
+        },
+        "submit": "무료 상담 예약하기",
+        "calendly": {
+          "title": "상담 날짜 선택",
+          "description": "아래 캘린더에서 원하시는 날짜와 시간을 선택하세요"
+        }
+      },
+      "success": {
+        "title": "감사합니다!",
+        "message": "상담 요청을 받았습니다. 저희 팀이 24시간 이내에 상담 시간을 확인하기 위해 연락드리겠습니다.",
+        "email": "확인 메시지와 캘린더 초대장을 이메일에서 확인하세요."
+      },
+      "contactInfo": {
+        "email": "이메일",
+        "location": "위치",
+        "locationText": "서울, 대한민국"
+      },
+      "validation": {
+        "firstNameRequired": "이름을 입력해주세요",
+        "lastNameRequired": "성을 입력해주세요",
+        "emailRequired": "이메일을 입력해주세요",
+        "emailInvalid": "올바른 이메일 주소를 입력해주세요",
+        "contactMethodRequired": "연락 방법을 선택해주세요",
+        "ageRequired": "나이를 선택해주세요",
+        "diagnosedRequired": "옵션을 선택해주세요",
+        "cpapRequired": "옵션을 선택해주세요"
       }
     }
   }

@@ -34,12 +34,12 @@ export default function ForBusinesses() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-16">
+      <section className="bg-gradient-to-br from-primary/10 via-white to-primary-light/10 py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-bold text-secondary mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4 sm:mb-6"
           >
             {t('pages.forBusinesses.hero.title')}
           </motion.h1>
@@ -47,7 +47,7 @@ export default function ForBusinesses() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-neutral-700"
+            className="text-base sm:text-lg md:text-xl text-neutral-700"
           >
             {t('pages.forBusinesses.hero.subtitle')}
           </motion.p>
@@ -63,13 +63,13 @@ export default function ForBusinesses() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-secondary mb-4">{t('pages.forBusinesses.businessCase.title')}</h2>
-            <p className="text-lg text-neutral-700 max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">{t('pages.forBusinesses.businessCase.title')}</h2>
+            <p className="text-base sm:text-lg text-neutral-700 max-w-2xl mx-auto">
               {t('pages.forBusinesses.businessCase.subtitle')}
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
             {businessCase.map((item, index) => (
               <motion.div
                 key={index}
@@ -79,30 +79,30 @@ export default function ForBusinesses() {
                 transition={{ delay: index * 0.1 }}
               >
                 <Card className="text-center">
-                  <item.icon className="text-primary mx-auto mb-4" size={32} />
-                  <div className="text-3xl font-bold text-secondary mb-2">{item.stat}</div>
-                  <div className="text-neutral-700 text-sm">{item.label}</div>
+                  <item.icon className="text-primary mx-auto mb-3 sm:mb-4" size={28} />
+                  <div className="text-2xl sm:text-3xl font-bold text-secondary mb-1 sm:mb-2">{item.stat}</div>
+                  <div className="text-neutral-700 text-xs sm:text-sm">{item.label}</div>
                 </Card>
               </motion.div>
             ))}
           </div>
 
           <Card className="bg-gradient-to-br from-error/10 to-warning/10 border-2 border-error/20">
-            <h3 className="text-2xl font-semibold text-secondary mb-4">{t('pages.forBusinesses.businessCase.impact.title')}</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-secondary mb-3 sm:mb-4">{t('pages.forBusinesses.businessCase.impact.title')}</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <ul className="space-y-2">
                 {(t('pages.forBusinesses.businessCase.impact.items', { returnObjects: true }) as string[]).slice(0, 3).map((item, index) => (
                   <li key={index} className="flex items-start space-x-2">
-                    <CheckCircle2 className="text-error mt-0.5 flex-shrink-0" size={18} />
-                    <span className="text-neutral-700">{item}</span>
+                    <CheckCircle2 className="text-error mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm sm:text-base text-neutral-700">{item}</span>
                   </li>
                 ))}
               </ul>
               <ul className="space-y-2">
                 {(t('pages.forBusinesses.businessCase.impact.items', { returnObjects: true }) as string[]).slice(3).map((item, index) => (
                   <li key={index + 3} className="flex items-start space-x-2">
-                    <CheckCircle2 className="text-error mt-0.5 flex-shrink-0" size={18} />
-                    <span className="text-neutral-700">{item}</span>
+                    <CheckCircle2 className="text-error mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm sm:text-base text-neutral-700">{item}</span>
                   </li>
                 ))}
               </ul>
