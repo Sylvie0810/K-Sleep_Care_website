@@ -12,6 +12,7 @@
   },
   "footer": {
     "tagline": "End-to-End 수면무호흡 케어 플랫폼<br>스크리닝-진단-치료 셋업부터 지속적인 치료 지원",
+    "description": "K-Sleep Care는 수면무호흡 케어의 중요한 문제를 해결하기 위해 헬스테크 스타트업 SOOMi Health가 제공하는 SaaS + 온라인 교육 솔루션입니다.",
     "company": "회사",
     "resources": "리소스",
     "legal": "법적 고지",
@@ -20,7 +21,12 @@
     "disclaimer": "의료 면책사항",
     "bookConsultation": "상담 예약",
     "copyright": "K-Sleep Care. All rights reserved.",
-    "companyName": "상호명: SOOMi Health"
+    "companyInfo": {
+      "companyName": "상호: 수미헬스(SOOMi Health)",
+      "serviceName": "서비스명: K-Sleep Care",
+      "businessNumber": "사업자등록번호: 889-43-01165",
+      "representative": "대표자명: 김연재"
+    }
   },
   "home": {
     "hero": {

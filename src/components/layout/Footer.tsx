@@ -42,11 +42,24 @@ export default function Footer() {
               className="text-sm text-neutral-400 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: t('footer.tagline') }}
             />
+            <p className="text-xs text-neutral-500 leading-relaxed">
+              {t('footer.description')}
+            </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-primary" />
                 <a href="mailto:contact@ksleep.care" className="hover:text-primary transition-colors">
                   contact@ksleep.care
+                </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <a 
+                  href="https://www.linkedin.com/company/109548905/admin/dashboard/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors text-neutral-400"
+                >
+                  LinkedIn
                 </a>
               </div>
               <div className="flex items-start space-x-2">
@@ -115,24 +128,23 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-neutral-700 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-neutral-400 space-y-1">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0">
+            <div className="text-xs sm:text-sm text-neutral-400 space-y-1">
               <p>
                 © {currentYear} {t('footer.copyright')}
               </p>
               <p>
-                {t('footer.companyName')}
+                {t('footer.companyInfo.companyName')}
               </p>
-            </div>
-            <div className="flex space-x-6 text-sm text-neutral-400">
-              <a 
-                href="https://www.linkedin.com/company/109548905/admin/dashboard/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
-              >
-                LinkedIn
-              </a>
+              <p>
+                {t('footer.companyInfo.serviceName')}
+              </p>
+              <p>
+                {t('footer.companyInfo.businessNumber')}
+              </p>
+              <p>
+                {t('footer.companyInfo.representative')}
+              </p>
             </div>
           </div>
         </div>

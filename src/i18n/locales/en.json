@@ -12,6 +12,7 @@
   },
   "footer": {
     "tagline": "End-to-End Sleep Apnea Care Platform<br>Screening-Diagnosis-Treatment Setup to Ongoing Care Support",
+    "description": "K-Sleep Care is a SaaS + On-line training solution provided by the health-tech start-up SOOMi Health built to fix the critical problems in sleep apnea care.",
     "company": "Company",
     "resources": "Resources",
     "legal": "Legal",
@@ -20,7 +21,12 @@
     "disclaimer": "Medical Disclaimer",
     "bookConsultation": "Book Consultation",
     "copyright": "K-Sleep Care. All rights reserved.",
-    "companyName": "Company Name: SOOMi Health"
+    "companyInfo": {
+      "companyName": "Company: SOOMi Health",
+      "serviceName": "Service Name: K-Sleep Care",
+      "businessNumber": "Business Registration Number: 889-43-01165",
+      "representative": "Representative: 김연재"
+    }
   },
   "home": {
     "hero": {
