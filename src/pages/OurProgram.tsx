@@ -435,24 +435,32 @@ export default function OurProgram() {
             <Card>
               <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-4">{t('pages.ourProgram.pricing.packagePricing.title')}</h3>
               <ul className="space-y-2">
-                {(t('pages.ourProgram.pricing.packagePricing.items', { returnObjects: true }) as string[]).map((item, index) => (
-                  <li key={index} className="flex items-start space-x-2">
-                    <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
-                    <span className="text-sm sm:text-base text-neutral-700">{item}</span>
-                  </li>
-                ))}
+                {(() => {
+                  const items = t('pages.ourProgram.pricing.packagePricing.items', { returnObjects: true });
+                  const itemsArray = Array.isArray(items) ? items : [];
+                  return itemsArray.map((item: string, index: number) => (
+                    <li key={index} className="flex items-start space-x-2">
+                      <CheckCircle2 className="text-success mt-0.5 flex-shrink-0" size={16} />
+                      <span className="text-sm sm:text-base text-neutral-700">{item}</span>
+                    </li>
+                  ));
+                })()}
               </ul>
             </Card>
 
             <Card>
               <h3 className="text-lg sm:text-xl font-semibold text-secondary mb-4">{t('pages.ourProgram.pricing.notIncluded.title')}</h3>
               <ul className="space-y-2">
-                {(t('pages.ourProgram.pricing.notIncluded.items', { returnObjects: true }) as string[]).map((item, index) => (
-                  <li key={index} className="flex items-start space-x-2">
-                    <span className="text-neutral-400 mt-0.5 flex-shrink-0">×</span>
-                    <span className="text-sm sm:text-base text-neutral-600">{item}</span>
-                  </li>
-                ))}
+                {(() => {
+                  const items = t('pages.ourProgram.pricing.notIncluded.items', { returnObjects: true });
+                  const itemsArray = Array.isArray(items) ? items : [];
+                  return itemsArray.map((item: string, index: number) => (
+                    <li key={index} className="flex items-start space-x-2">
+                      <span className="text-neutral-400 mt-0.5 flex-shrink-0">×</span>
+                      <span className="text-sm sm:text-base text-neutral-600">{item}</span>
+                    </li>
+                  ));
+                })()}
               </ul>
             </Card>
           </div>
