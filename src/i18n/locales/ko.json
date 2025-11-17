@@ -19,8 +19,9 @@
     "disclaimer": "의료 면책사항",
     "bookConsultation": "상담 예약",
     "companyInfo": {
-      "companyAndService": "상호명: 수미헬스(SOOMi Health) | 서비스명: K-Sleep Care",
       "businessNumber": "사업자등록번호 889-43-01165",
+      "companyName": "상호명: 수미헬스(SOOMi Health)",
+      "serviceName": "서비스명: K-Sleep Care",
       "representative": "대표자명: 김연재",
       "address": "주소: 서울특별시 영등포구 양평로 24, 5층 (Korea)",
       "email": "이메일: contact@ksleep.care",

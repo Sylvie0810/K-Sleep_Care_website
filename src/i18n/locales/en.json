@@ -19,8 +19,9 @@
     "disclaimer": "Medical Disclaimer",
     "bookConsultation": "Book Consultation",
     "companyInfo": {
-      "companyAndService": "Company: SOOMi Health | Service Name: K-Sleep Care",
       "businessNumber": "Business Registration Number: 889-43-01165",
+      "companyName": "Company: SOOMi Health",
+      "serviceName": "Service Name: K-Sleep Care",
       "representative": "Representative: 김연재",
       "address": "Address: 5F, 24 Yangpyeong-ro, Yeongdeungpo-gu, Seoul, Korea",
       "email": "Email: contact@ksleep.care",

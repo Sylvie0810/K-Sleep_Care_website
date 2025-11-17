@@ -29,8 +29,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info Column */}
           <div className="space-y-2 text-sm text-neutral-400">
-            <p>{t('footer.companyInfo.companyAndService')}</p>
             <p>{t('footer.companyInfo.businessNumber')}</p>
+            <p>{t('footer.companyInfo.companyName')}</p>
+            <p>{t('footer.companyInfo.serviceName')}</p>
             <p>{t('footer.companyInfo.representative')}</p>
             <p>{t('footer.companyInfo.address')}</p>
             <p>{t('footer.companyInfo.email')}</p>
