@@ -1,0 +1,449 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutSleepHealth": "About Sleep Health",
+    "ourProgram": "Our Program",
+    "howItWorks": "How It Works",
+    "forBusinesses": "For Businesses",
+    "aboutUs": "About Us",
+    "faq": "FAQ",
+    "expertInsights": "Expert Insights",
+    "bookConsultation": "Book Consultation"
+  },
+  "footer": {
+    "tagline": "End-to-End Sleep Apnea Care Platform<br>Screening-Diagnosis-Treatment Setup to Ongoing Care Support",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Medical Disclaimer",
+    "bookConsultation": "Book Consultation",
+    "copyright": "K-Sleep Care. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Restore your sleep. <br> Reclaim your life.",
+      "subtitle": "Comprehensive sleep apnea treatment in Seoul - from assessment to ongoing support - delivered faster and better than traditional US care",
+      "cta": "Book Free Consultation",
+      "ctaSecondary": "Learn How It Works",
+      "trust1": "90%+ Treatment Success Rate",
+      "trust2": "5-Day Intensive Program",
+      "trust3": "90-Day Remote Support Included",
+      "whyTitle": "Why Choose K-Sleep Care?",
+      "why1": "World-class medical expertise in Seoul",
+      "why2": "Custom mask fitting with 3D scanning",
+      "why3": "AI-powered assessment and monitoring",
+      "why4": "90 days of remote support included"
+    },
+    "problem": {
+      "title": "The Broken US Sleep Apnea Treatment System",
+      "point1": "12-18 months average wait time",
+      "point2": "High costs with insurance complexities",
+      "point3": "Poor DME provider support",
+      "point4": "50% CPAP abandonment rate within first year"
+    },
+    "solution": {
+      "title": "The K-Sleep Care Difference",
+      "point1": "5-day intensive program",
+      "point2": "Transparent, all-inclusive pricing",
+      "point3": "Personalized care with AI-powered assessment",
+      "point4": "90%+ treatment adherence success"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "A simple, streamlined process from consultation to ongoing support",
+      "step1": {
+        "title": "Virtual Consultation",
+        "description": "Free 30-minute consultation to assess your needs and eligibility",
+        "timeline": "Week 0"
+      },
+      "step2": {
+        "title": "Travel to Seoul",
+        "description": "Fly to Seoul for your 5-day intensive treatment program",
+        "timeline": "Week 1"
+      },
+      "step3": {
+        "title": "5-Day Program",
+        "description": "Comprehensive assessment, custom mask fitting, and treatment initiation",
+        "timeline": "Days 1-5"
+      },
+      "step4": {
+        "title": "Return Home",
+        "description": "Leave with your personalized equipment and treatment plan",
+        "timeline": "Day 6"
+      },
+      "step5": {
+        "title": "90-Day Support",
+        "description": "Daily data tracking, weekly check-ins, and ongoing adjustments",
+        "timeline": "Months 1-3"
+      },
+      "learnMore": "Learn More About the Process"
+    },
+    "stats": {
+      "success": "Treatment Success Rate",
+      "days": "Intensive Program",
+      "patients": "Patients Helped",
+      "satisfaction": "Patient Satisfaction"
+    },
+    "finalCta": {
+      "title": "Ready to Transform Your Sleep?",
+      "subtitle": "Join hundreds of Americans who have reclaimed their health through K-Sleep Care",
+      "cta": "Book Your Free Consultation",
+      "ctaSecondary": "Learn More About Our Program"
+    }
+  },
+  "aboutSleepHealth": {
+    "title": "About Sleep Health",
+    "subtitle": "Understanding sleep apnea and why treatment matters",
+    "whyMatters": {
+      "title": "Why Sleep Health Matters",
+      "p1": "Sleep is not a luxury—it's a fundamental pillar of health. Quality sleep affects every aspect of our lives, from physical health and mental clarity to emotional well-being and daily performance.",
+      "p2": "In America, sleep deprivation has reached epidemic proportions. Millions of adults struggle with sleep disorders, yet many remain undiagnosed and untreated. The consequences extend far beyond feeling tired—untreated sleep disorders can lead to serious health complications, reduced quality of life, and even premature death."
+    },
+    "whatIs": {
+      "title": "What is Sleep Apnea?",
+      "p1": "Sleep apnea is a serious sleep disorder where breathing repeatedly stops and starts during sleep. The most common type, obstructive sleep apnea (OSA), occurs when throat muscles intermittently relax and block your airway. This leads to fragmented sleep, reduced oxygen levels, and numerous health consequences if left untreated.",
+      "p2": "Each time your breathing stops, your brain briefly wakes you up to restart breathing—often so briefly you don't remember it. This cycle can repeat hundreds of times per night, preventing you from reaching the deep, restorative stages of sleep your body needs."
+    },
+    "types": {
+      "title": "Types of Sleep Apnea",
+      "osa": {
+        "title": "Obstructive Sleep Apnea (OSA)",
+        "desc": "The most common form (90%+ of cases), caused by physical blockage of the airway. Risk factors include obesity, age, anatomical factors, and family history."
+      },
+      "csa": {
+        "title": "Central Sleep Apnea (CSA)",
+        "desc": "Less common, occurs when the brain fails to send proper signals to muscles that control breathing. Often associated with heart failure, stroke, or high altitude."
+      },
+      "complex": {
+        "title": "Complex/Mixed Sleep Apnea",
+        "desc": "A combination of both obstructive and central sleep apnea."
+      }
+    },
+    "symptoms": {
+      "title": "Common Symptoms",
+      "subtitle": "If you experience any of these symptoms, you may have sleep apnea:",
+      "list": [
+        "Loud snoring",
+        "Gasping for air during sleep",
+        "Morning headaches",
+        "Excessive daytime sleepiness",
+        "Difficulty concentrating",
+        "Mood changes/irritability",
+        "High blood pressure"
+      ],
+      "cta": "Experience these symptoms? Take our quick assessment"
+    },
+    "healthRisks": {
+      "title": "Health Risks of Untreated Sleep Apnea",
+      "subtitle": "Left untreated, sleep apnea can lead to serious health complications",
+      "cardiovascular": {
+        "title": "Cardiovascular",
+        "items": ["Hypertension", "Heart attack", "Stroke", "Arrhythmias"]
+      },
+      "metabolic": {
+        "title": "Metabolic",
+        "items": ["Type 2 diabetes", "Metabolic syndrome", "Weight gain"]
+      },
+      "cognitive": {
+        "title": "Cognitive",
+        "items": ["Memory problems", "Reduced concentration", "Increased dementia risk"]
+      },
+      "qualityOfLife": {
+        "title": "Quality of Life",
+        "items": ["Fatigue", "Reduced productivity", "Relationship strain"]
+      }
+    },
+    "prevalence": {
+      "title": "Sleep Apnea by the Numbers",
+      "stat1": "39M",
+      "stat1Label": "American adults have sleep apnea",
+      "stat2": "80%",
+      "stat2Label": "Remain undiagnosed",
+      "stat3": "2-3x",
+      "stat3Label": "Men more likely than women"
+    },
+    "treatment": {
+      "title": "Treatment Options",
+      "subtitle": "Effective treatment can dramatically improve your health and quality of life",
+      "cpap": {
+        "title": "CPAP Therapy (Gold Standard)",
+        "description": "Continuous Positive Airway Pressure is the most effective treatment for moderate-to-severe sleep apnea, with 90%+ effectiveness when used correctly.",
+        "benefits": ["Most effective treatment", "Non-invasive", "Immediate results", "Reversible"]
+      },
+      "alternatives": {
+        "title": "Alternative Therapies",
+        "description": "For mild cases or when CPAP is not suitable, other options may be considered.",
+        "benefits": ["Oral appliances", "Positional therapy", "Lifestyle modifications", "Surgery (in rare cases)"]
+      },
+      "approach": {
+        "title": "K-Sleep Care's Approach",
+        "description": "We focus on CPAP therapy as the gold standard treatment, combined with personalized care, custom mask fitting, and comprehensive 90-day support to ensure your success.",
+        "cta": "Learn About Our Program"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our program",
+    "searchPlaceholder": "Search FAQs...",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "program": "Program",
+      "logistics": "Logistics",
+      "payment": "Payment",
+      "medical": "Medical"
+    },
+    "items": [
+      {
+        "category": "general",
+        "question": "What is sleep apnea?",
+        "answer": "Sleep apnea is a serious sleep disorder where breathing repeatedly stops and starts during sleep. The most common type, obstructive sleep apnea (OSA), occurs when throat muscles intermittently relax and block your airway. This leads to fragmented sleep, reduced oxygen levels, and numerous health consequences if left untreated."
+      },
+      {
+        "category": "general",
+        "question": "How do I know if I have sleep apnea?",
+        "answer": "Common signs include loud snoring, gasping for air during sleep, morning headaches, excessive daytime sleepiness, difficulty concentrating, and mood changes. However, only a sleep study can definitively diagnose sleep apnea. Schedule a free consultation to assess your symptoms."
+      },
+      {
+        "category": "general",
+        "question": "Why should I choose K-Sleep Care over traditional US treatment?",
+        "answer": "K-Sleep Care offers: 5 days vs. 12-18 months for complete treatment, 90%+ adherence success vs. 50% industry average, custom mask fitting vs. basic sizing, 90 days of remote support vs. minimal follow-up, transparent pricing vs. insurance uncertainty, and personalized care vs. fragmented system."
+      },
+      {
+        "category": "program",
+        "question": "How long is the program?",
+        "answer": "The intensive program in Seoul is 5 days. You'll then receive 90 days of remote monitoring and support after returning home, for a total of approximately 3 months of comprehensive care."
+      },
+      {
+        "category": "program",
+        "question": "What's included in the 5-day program?",
+        "answer": "Everything you need for successful treatment: comprehensive sleep assessment & diagnosis, AI-powered treatment planning, custom CPAP mask fitting (2 masks), CPAP machine (yours to keep), 3-month supply of accessories, daily hands-on training, supervised first night with CPAP, take-home support kit, and 90-day remote monitoring setup."
+      },
+      {
+        "category": "program",
+        "question": "Do I need to speak Korean?",
+        "answer": "No. All K-Sleep Care staff are fluent in English, and all materials are provided in English. Our founder and many team members are American or have extensive international experience."
+      },
+      {
+        "category": "logistics",
+        "question": "How do I get to Seoul?",
+        "answer": "We provide guidance on flight booking (major carriers from US hubs), visa requirements (most US citizens can enter visa-free for 90 days), airport pickup options, and transportation within Seoul."
+      },
+      {
+        "category": "logistics",
+        "question": "Where will I stay?",
+        "answer": "You'll need to arrange your own accommodation for the 5-day program. We provide a curated list of nearby hotels at various price points, serviced apartments for longer stays, and tips on neighborhoods and transportation."
+      },
+      {
+        "category": "payment",
+        "question": "How much does the program cost?",
+        "answer": "Our all-inclusive package pricing is transparent and typically 30-50% less than comparable care in the US, even before considering the time savings and superior outcomes. Contact us for current pricing."
+      },
+      {
+        "category": "payment",
+        "question": "Do you accept insurance?",
+        "answer": "K-Sleep Care is currently out-of-network for US insurance plans. However, many patients receive 30-70% reimbursement by submitting superbills. We provide all necessary documentation for reimbursement, our team assists with the insurance submission process, and all services are FSA/HSA eligible."
+      },
+      {
+        "category": "medical",
+        "question": "Is CPAP the only treatment option?",
+        "answer": "CPAP is the gold standard for moderate-to-severe sleep apnea with the highest success rate (90%+ effective). Alternative treatments like oral appliances or surgery are less effective and have more limitations. We focus on CPAP because it delivers the best outcomes, and our program is specifically designed to overcome the adherence challenges that cause many patients to quit."
+      },
+      {
+        "category": "medical",
+        "question": "What are the side effects of CPAP?",
+        "answer": "Common initial side effects include mask discomfort (solved with custom fitting), dry mouth/nose (humidifier helps), nasal congestion (temporary, manageable), claustrophobia (multiple mask styles available), and pressure adjustment period (gradual ramp-up). Most side effects resolve within 1-2 weeks, and our 90-day support program helps you manage any issues."
+      }
+    ],
+    "stillHaveQuestions": {
+      "title": "Still Have Questions?",
+      "subtitle": "Our team is here to help. Book a free consultation to discuss your specific needs.",
+      "cta": "Contact Us"
+    },
+    "noResults": "No FAQs found matching your search."
+  },
+  "common": {
+    "learnMore": "Learn More"
+  },
+  "pages": {
+    "ourProgram": {
+      "title": "Our Program",
+      "subtitle": "A comprehensive 5-day intensive program with 90 days of ongoing support"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "A simple, streamlined process from consultation to ongoing support"
+    },
+    "forBusinesses": {
+      "hero": {
+        "title": "For Businesses",
+        "subtitle": "Corporate solutions to improve employee health and productivity"
+      },
+      "businessCase": {
+        "title": "The Business Case",
+        "subtitle": "Sleep apnea costs US employers billions annually. Untreated sleep apnea employees face serious health and productivity issues that impact your bottom line.",
+        "stats": {
+          "annualCost": {
+            "stat": "$150B",
+            "label": "Annual cost to US employers"
+          },
+          "workplaceAccidents": {
+            "stat": "3x",
+            "label": "More workplace accidents"
+          },
+          "sickDays": {
+            "stat": "2x",
+            "label": "More sick days"
+          },
+          "reducedProductivity": {
+            "stat": "40%",
+            "label": "Reduced productivity"
+          }
+        },
+        "impact": {
+          "title": "Impact of Untreated Sleep Apnea",
+          "items": [
+            "3x more workplace accidents",
+            "2x more sick days",
+            "40% reduced productivity",
+            "Increased healthcare costs",
+            "Increased absenteeism",
+            "Decreased employee engagement"
+          ]
+        }
+      },
+      "corporateProgram": {
+        "title": "K-Sleep Care Corporate Program",
+        "subtitle": "A comprehensive solution designed for employee wellness programs",
+        "benefits": {
+          "title": "Program Benefits",
+          "items": [
+            "Customizable packages for companies of all sizes",
+            "Group rates available",
+            "Flexible scheduling to minimize work disruption",
+            "Comprehensive reporting for HR/wellness teams",
+            "Measurable ROI tracking",
+            "Improved employee health and productivity",
+            "Reduced healthcare costs",
+            "Enhanced employee satisfaction and retention"
+          ]
+        },
+        "features": {
+          "scalableSolutions": {
+            "title": "Scalable Solutions",
+            "description": "Programs tailored for companies of all sizes, from startups to Fortune 500"
+          },
+          "provenResults": {
+            "title": "Proven Results",
+            "description": "90%+ treatment success rate with measurable improvements in employee health and productivity"
+          },
+          "roiTracking": {
+            "title": "ROI Tracking",
+            "description": "Comprehensive reporting and analytics to measure impact on profitability"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to Transform Your Workplace?",
+        "subtitle": "Contact us to discuss how K-Sleep Care can help your organization",
+        "button": "Contact Us"
+      }
+    },
+    "aboutUs": {
+      "hero": {
+        "title": "About Us",
+        "subtitle": "Transforming sleep apnea treatment through innovation and excellence"
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "To democratize access to world-class sleep apnea treatment by combining Korean medical excellence with innovative technology, delivering better outcomes at a fraction of the time and cost of traditional care."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become the leading global medical tourism solution for sleep health, transforming how sleep apnea is diagnosed, treated, and managed worldwide."
+      },
+      "values": {
+        "title": "Our Core Values",
+        "subtitle": "The principles that guide everything we do",
+        "patientCentered": {
+          "title": "Patient-Centered",
+          "description": "Every decision prioritizes patient comfort and success"
+        },
+        "innovationDriven": {
+          "title": "Innovation-Driven",
+          "description": "Leveraging AI and technology for better outcomes"
+        },
+        "evidenceBased": {
+          "title": "Evidence-Based",
+          "description": "Grounded in clinical research and data"
+        },
+        "accessible": {
+          "title": "Accessible",
+          "description": "Breaking down barriers to quality sleep care"
+        }
+      },
+      "story": {
+        "title": "Our Story",
+        "p1": "After 20+ years in healthcare and witnessing countless patients struggle with the broken US sleep apnea system, we knew there had to be a better way. K-Sleep Care was born from a simple question: <strong>What if we could compress 18 months of fragmented care into 5 days of intensive, personalized treatment?</strong>",
+        "p2": "Founded in 2025, K-Sleep Care emerged from the Antler Korea accelerator program (Cohort 7), where our vision of transforming sleep apnea treatment through medical tourism and technology innovation took shape.",
+        "p3": "Our first corporate client, Bayer Korea, launched in November 2025, validating our approach and demonstrating the demand for better sleep health solutions."
+      },
+      "whySeoul": {
+        "title": "Why Seoul?",
+        "reasons": [
+          {
+            "title": "World-class medical infrastructure",
+            "description": "Seoul is home to some of the world's most advanced healthcare facilities and medical professionals."
+          },
+          {
+            "title": "Advanced healthcare technology adoption",
+            "description": "Korean healthcare systems are early adopters of cutting-edge medical technology, including AI-powered diagnostics and personalized treatment approaches."
+          },
+          {
+            "title": "Efficient, patient-centered care culture",
+            "description": "The Korean healthcare model emphasizes efficiency without compromising quality, ensuring patients receive comprehensive care in minimal time."
+          },
+          {
+            "title": "Cost-effective excellence",
+            "description": "High-quality care at a fraction of US costs, making world-class treatment accessible to more patients."
+          },
+          {
+            "title": "Strategic location",
+            "description": "Easily accessible from the US and Asia, making it an ideal destination for medical tourism."
+          }
+        ]
+      },
+      "team": {
+        "title": "Our Team",
+        "subtitle": "Experienced healthcare professionals and medical advisors",
+        "founder": {
+          "name": "Sylvie",
+          "role": "Founder & CEO",
+          "description": "With 20+ years of healthcare experience, Sylvie is a sleep medicine specialist passionate about patient empowerment and data-driven care. An Antler Korea Cohort 7 alumna, she leads K-Sleep Care's mission to transform sleep apnea treatment."
+        },
+        "advisoryBoard": {
+          "title": "Medical Advisory Board",
+          "subtitle": "Our team is supported by leading experts in sleep medicine, neuroscience, and endocrinology:",
+          "members": [
+            {
+              "name": "Dr. Lee Ji-hyun",
+              "role": "Sleep Medicine Specialist, International Sleep Expert"
+            },
+            {
+              "name": "Prof. Lee In-ah",
+              "role": "Seoul National University, Brain & Cognitive Sciences"
+            },
+            {
+              "name": "Dr. Kim Shin-gon",
+              "role": "Korea University, Endocrinology Professor"
+            }
+          ],
+          "readMore": "Read expert insights"
+        }
+      }
+    }
+  }
+}
