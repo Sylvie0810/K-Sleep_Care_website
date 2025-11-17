@@ -116,9 +116,14 @@ export default function Footer() {
 
         <div className="border-t border-neutral-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-neutral-400">
-              © {currentYear} {t('footer.copyright')}
-            </p>
+            <div className="text-sm text-neutral-400 space-y-1">
+              <p>
+                © {currentYear} {t('footer.copyright')}
+              </p>
+              <p>
+                {t('footer.companyName')}
+              </p>
+            </div>
             <div className="flex space-x-6 text-sm text-neutral-400">
               <a 
                 href="https://www.linkedin.com/company/109548905/admin/dashboard/" 
