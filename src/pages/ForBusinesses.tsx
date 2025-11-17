@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { Building2, TrendingDown, Users, Award, CheckCircle2, DollarSign, Calendar } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import Card from '../components/common/Card'
-import Button from '../components/common/Button'
 import { Link } from 'react-router-dom'
 
 export default function ForBusinesses() {

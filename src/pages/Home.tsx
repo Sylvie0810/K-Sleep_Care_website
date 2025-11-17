@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowRight, Clock, DollarSign, TrendingUp, Users, Star, CheckCircle2 } from 'lucide-react'
+import { ArrowRight, Clock, TrendingUp, Star, CheckCircle2 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import Button from '../components/common/Button'
 import Card from '../components/common/Card'
@@ -11,40 +11,6 @@ export default function Home() {
     { value: '90%+', labelKey: 'home.stats.success', icon: TrendingUp },
     { value: i18n.language === 'ko' ? '5일' : '5 Days', labelKey: 'home.stats.days', icon: Clock },
     { value: '4.9/5', labelKey: 'home.stats.satisfaction', icon: Star },
-  ]
-
-
-  const steps = [
-    {
-      number: 1,
-      titleKey: 'home.howItWorks.step1.title',
-      descriptionKey: 'home.howItWorks.step1.description',
-      timelineKey: 'home.howItWorks.step1.timeline',
-    },
-    {
-      number: 2,
-      titleKey: 'home.howItWorks.step2.title',
-      descriptionKey: 'home.howItWorks.step2.description',
-      timelineKey: 'home.howItWorks.step2.timeline',
-    },
-    {
-      number: 3,
-      titleKey: 'home.howItWorks.step3.title',
-      descriptionKey: 'home.howItWorks.step3.description',
-      timelineKey: 'home.howItWorks.step3.timeline',
-    },
-    {
-      number: 4,
-      titleKey: 'home.howItWorks.step4.title',
-      descriptionKey: 'home.howItWorks.step4.description',
-      timelineKey: 'home.howItWorks.step4.timeline',
-    },
-    {
-      number: 5,
-      titleKey: 'home.howItWorks.step5.title',
-      descriptionKey: 'home.howItWorks.step5.description',
-      timelineKey: 'home.howItWorks.step5.timeline',
-    },
   ]
 
   return (

@@ -89,7 +89,7 @@ export default function Header() {
                       : 'text-neutral-700 hover:text-primary pl-4'
                   }`}
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </Link>
               ))}
               <Link

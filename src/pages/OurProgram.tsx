@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
-import { CheckCircle2, Users, TrendingUp, Brain, Monitor, Clock } from 'lucide-react'
+import { CheckCircle2, Users, TrendingUp, Brain, Monitor } from 'lucide-react'
 import Card from '../components/common/Card'
-import Button from '../components/common/Button'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
