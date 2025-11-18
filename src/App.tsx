@@ -11,6 +11,7 @@ import AboutUs from './pages/AboutUs'
 import ExpertInsights from './pages/ExpertInsights'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import SleepApneaAssessment from './pages/SleepApneaAssessment'
 
 function App() {
   const { i18n } = useTranslation()
@@ -36,6 +37,7 @@ function App() {
           <Route path="/expert-insights" element={<ExpertInsights />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/self-assessment" element={<SleepApneaAssessment />} />
         </Routes>
       </Layout>
     </Router>

@@ -252,7 +252,7 @@ export default function AboutSleepHealth() {
                 </div>
               </div>
               <div className="mt-8 pt-6 border-t border-neutral-200">
-                <Link to="/contact">
+                <Link to="/self-assessment">
                   <Button className="w-full sm:w-auto">
                     {t('aboutSleepHealth.symptoms.cta')}
                   </Button>

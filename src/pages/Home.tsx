@@ -39,7 +39,7 @@ export default function Home() {
                     <ArrowRight className="inline-block ml-2" size={20} />
                   </Button>
                 </Link>
-                <Link to="/our-program">
+                <Link to="/self-assessment">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto">
                     {t('home.hero.ctaSecondary')}
                   </Button>
